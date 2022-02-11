@@ -30,4 +30,5 @@ jobs:
   test-app:
     needs: build-app
     runs-on: ubuntu-latest
-    steps: echo "YOLO"
+    steps:
+      - run: echo "YOLO"
