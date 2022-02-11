@@ -30,7 +30,7 @@ jobs:
       - name: Setup finish
         id: finished
         run: echo "::set-output name=text::hello-world-from-build-job"
-  test-app:
+  testApp:
     needs: buildApp
     runs-on: ubuntu-latest
     env:
