@@ -1,5 +1,8 @@
-asdfasdf
-
-asdfasdf
-
-asdfaf
+name: My First Github Action
+on: [push]
+jobs:
+  build-project:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!!!"
+      - run: echo "this is second step"
